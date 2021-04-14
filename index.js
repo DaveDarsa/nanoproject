@@ -23,7 +23,7 @@ function MainContent() {
     if (!input) return;
     // changeMovieName(input.value);
     let searchTerm = input.value;
-    let baseurl = "http://www.omdbapi.com/";
+    let baseurl = "https://www.omdbapi.com/";
     let key = "dff1d0c6";
 
     fetch(`${baseurl}?apikey=${key}&s=${searchTerm}`)
@@ -57,7 +57,7 @@ function MovieList() {
 }
 function selectMovie(id) {
   console.log(id);
-  let baseurl = "http://www.omdbapi.com/";
+  let baseurl = "https://www.omdbapi.com/";
   let key = "dff1d0c6";
 
   fetch(`${baseurl}?apikey=${key}&i=${id}`)

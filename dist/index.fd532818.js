@@ -458,7 +458,7 @@ function MainContent() {
     if (!input) return;
     // changeMovieName(input.value);
     let searchTerm = input.value;
-    let baseurl = "http://www.omdbapi.com/";
+    let baseurl = "https://www.omdbapi.com/";
     let key = "dff1d0c6";
     fetch(`${baseurl}?apikey=${key}&s=${searchTerm}`).then(response => response.json()).then(json => {
       console.log(json);
@@ -485,7 +485,7 @@ function MovieList() {
 }
 function selectMovie(id) {
   console.log(id);
-  let baseurl = "http://www.omdbapi.com/";
+  let baseurl = "https://www.omdbapi.com/";
   let key = "dff1d0c6";
   fetch(`${baseurl}?apikey=${key}&i=${id}`).then(response => response.json()).then(json => {
     console.log(json);
@@ -926,7 +926,7 @@ function Nano() {
 }
 exports.default = Nano;
 
-},{"./internals/ToDOM.js":"58uIJ","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"58uIJ":[function(require,module,exports) {
+},{"./internals/ToDOM.js":"58uIJ","@parcel/transformer-js/lib/esmodule-helpers.js":"6hquc"}],"58uIJ":[function(require,module,exports) {
 var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
 _parcelHelpers.defineInteropFlag(exports);
 _parcelHelpers.export(exports, "ToDOM", function () {
@@ -940,7 +940,7 @@ function ToDOM(component) {
   return fragmentFromComponent;
 }
 
-},{"@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"5gA8y":[function(require,module,exports) {
+},{"@parcel/transformer-js/lib/esmodule-helpers.js":"6hquc"}],"6hquc":[function(require,module,exports) {
 "use strict";
 
 exports.interopDefault = function (a) {
