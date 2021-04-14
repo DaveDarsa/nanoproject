@@ -141,12 +141,14 @@ function Footer() {
 function About() {
   return `<div component='About' class='about'>
   
-
+  <h1>You just witnessed the Nano router in action</h1>
+  <h2>What's the point of Nano?</h2>
+  <p>I just wanted to showcase the framework features with a simple webapp that uses the OMDB API.</p>
+  <p>To check out the source code of this site, on <a href=''>Github</a></p>
+  <p class='desc'>To learn more about Nanoscopic-js, check it out on <a href=''>Npm</a> or <a href=''>Github</a></p>
   <h4>Note: since props aren't as well mainteined as states in the framework, I had to get a little creative and expose 
-  movies state to all other components
-  </h4>
-
-  <a href="#" linkto='/'>Go back to main</a>
+  movies state to all other components</h4>
+  <a href="#" linkto='/' class='btn'>Get back to main</a>
   </div> `;
 }
 

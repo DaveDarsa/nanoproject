@@ -251,6 +251,57 @@ button[type="submit"]:hover {
   display: inline-block;
   width: 100%;
 }
+.about {
+  background-color: #a0a6cf;
+  height: 100vh;
+  padding: 5rem 25vw;
+  color: #1e0e0e;
+}
+.about > * {
+  padding: 2rem 1rem 0.5rem 0;
+}
+.about h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 2rem;
+  border: none;
+}
+.about h2 {
+  font-size: 2rem;
+  border-bottom: 1px solid #f3f3f3;
+}
+.about p {
+  font-size: 1.5rem;
+}
+.about h4 {
+  font-size: 2rem;
+  color: rgb(104, 10, 10);
+}
+.about .btn {
+  display: inline-block;
+  margin: 0 auto;
+  border: 1px solid white;
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  border-radius: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  color: rgb(90, 19, 59);
+  transform: translateY(0);
+  transition: all 0.3s ease;
+  background-color: #373d6c;
+  color: white;
+  text-decoration: none;
+}
+.about .btn:hover {
+  transform: translateY(0.1rem);
+}
+.about .btn:active {
+  transform: translateY(0.2rem);
+}
 @media only screen and (max-width: 1000px) {
   html {
     font-size: 50%;
