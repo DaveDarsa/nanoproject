@@ -13,6 +13,13 @@ html {
   scrollbar-track-color: azure;
   font-family: "Roboto", sans-serif;
 }
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #373d6c;
+  border-radius: 0.1rem;
+}
 
 .header {
   height: 10vh;
