@@ -1,4 +1,6 @@
-import { Nano } from "../../node_modules/nanoscopic-js/index.js";
+//import { Nano } from "../../node_modules/nanoscopic-js/index.js";
+import { Nano } from "nanoscopic-js";
+
 var { Build, createState, BindListener, Route } = Nano();
 
 function Header() {
@@ -144,8 +146,8 @@ function About() {
   <h1>You just witnessed the Nano router in action</h1>
   <h2>What's the point of Nano?</h2>
   <p>I just wanted to showcase the framework features with a simple webapp that uses the OMDB API.</p>
-  <p>To check out the source code of this site, on <a href=''>Github</a></p>
-  <p class='desc'>To learn more about Nanoscopic-js, check it out on <a href=''>Npm</a> or <a href=''>Github</a></p>
+  <p>To check out the source code of this site, on <a href='https://github.com/DaveDarsa/nanoproject' target='blank'>Github</a></p>
+  <p class='desc'>To learn more about Nanoscopic-js, check it out on <a href='https://www.npmjs.com/package/nanoscopic-js' target='blank'>Npm</a> or <a href='https://github.com/DaveDarsa/nanoscopic' target='blank'>Github</a></p>
   <h4>Note: since props aren't as well mainteined as states in the framework, I had to get a little creative and expose 
   movies state to all other components</h4>
   <a href="#" linkto='/' class='btn'>Get back to main</a>
