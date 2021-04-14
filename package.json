@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build":"parcel index.html"
+    "build": "parcel index.html"
   },
   "repository": {
     "type": "git",
